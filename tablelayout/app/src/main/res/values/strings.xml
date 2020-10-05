@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">table layout</string>
+    <string name="login_form">Login form</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+
+    <string name="gmail">GMAIL</string>
+    <string name="login">Login</string>
+</resources>

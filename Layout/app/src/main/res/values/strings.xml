@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="hello_wrod">Hello Wrod</string>
+    <string name="dcsa">DCSA</string>
+    <string name="kurukshetra_university">kurukshetra University</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+
+
+</resources>

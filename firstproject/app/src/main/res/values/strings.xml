@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">first project</string>
+    <string name="begin">Begin</string>
+    <string name="exit">Exit</string>
+</resources>

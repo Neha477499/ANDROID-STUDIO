@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Addition, Sub,Multi,Division</string>
+    <string name="result_will_be_displayed_here">Result Will be displayed here</string>
+</resources>

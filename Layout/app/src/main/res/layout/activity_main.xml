@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    android:background=&quot;#0E0E0D&quot;
+    android:orientation=&quot;vertical&quot;
+    android:paddingLeft=&quot;16dp&quot;
+    android:paddingRight=&quot;16dp&quot;&gt;
+    &lt;TextView
+    android:id=&quot;@+id/textView&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:layout_marginLeft=&quot;40dp&quot;
+    android:layout_marginTop=&quot;150dp&quot;
+    android:text=&quot;@string/enter_the_Message&quot;
+    android:textColor=&quot;#F10909&quot;
+    android:textSize=&quot;36sp&quot; /&gt;
+    &lt;EditText
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:layout_marginTop=&quot;100dp&quot;
+    android:autofillHints=&quot;&quot;
+    android:hint=&quot;@string/Message&quot;
+    android:inputType=&quot;textUri|textAutoCorrect&quot;
+    android:paddingTop=&quot;250dp&quot;
+    android:textColor=&quot;#ECECEC&quot;
+    android:textColorHighlight=&quot;#DD1313&quot;
+    android:textColorHint=&quot;#FFFFFF&quot;
+
+
+</LinearLayout>

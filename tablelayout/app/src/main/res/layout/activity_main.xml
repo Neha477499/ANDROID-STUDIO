@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090099"
+    tools:context=".MainActivity">
+    <TableRow
+        android:layout_margin="100sp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/gmail"
+            android:textColor="#EDE7E8"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow android:layout_margin="10sp">
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/username"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/UserNameValue"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:background="#F2F1F4"
+            android:hint="@string/username"
+            android:textColor="#030404"
+            android:textSize="20sp"/>
+
+    </TableRow>
+    <TableRow android:layout_margin="10sp">
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/password"
+
+            android:textColor="#E6E3EA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/PasswordValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0F4F4"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#090809"
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#606358"
+            android:text="@string/login"
+            android:textColor="#F3EEEE"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>

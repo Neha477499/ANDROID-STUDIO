@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nested layout</string>
+    <string name="texta">TEXTa</string>
+    <string name="button1">BUTTON1</string>
+    <string name="text1">TEXT1</string>
+    <string name="text2">TEXT2</string>
+    <string name="button2">BUTTON2</string>
+    <string name="button3">BUTTON3</string>
+    <string name="textb">TEXTb</string>
+    <string name="button_a">BUTTON_A</string>
+    <string name="button_b">BUTTON_B</string>
+    <string name="button_c">BUTTON_C</string>
+
+
+
+    <string name="text_a">TEXT-a</string>
+
+    <string name="textc">TEXTC</string>
+    <string name="reset">RESET</string>
+    <string name="button4">BUTTON4</string>
+    <string name="button5">BUTTON5</string>
+    <string name="button6">BUTTON6</string>
+</resources>

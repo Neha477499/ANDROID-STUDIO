@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090099"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:layout_x="117dp"
+        android:layout_y="125dp"
+        android:text="@string/gmail"
+        android:textColor="#6C031B"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="245dp"
+        android:text="@string/username"
+
+        android:textColor="#6C0321"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="295dp"
+        android:autofillHints="user name"
+        android:background="#EDF3F2"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:textColor="#070707"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="343dp"
+        android:text="@string/password"
+        android:textColor="#6C030F"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="393dp"
+        android:autofillHints="Password1"
+        android:background="#F6F5F8"
+        android:hint="@string/password1"
+        android:inputType="text"
+        android:textColor="#040404"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="459dp"
+        android:background="#DADFDF"
+        android:text="@string/login"/>
+
+</AbsoluteLayout>
